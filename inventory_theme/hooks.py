@@ -4,6 +4,8 @@ app_publisher = "Visharad"
 app_description = "Theme for Inventory Pravrtak"
 app_email = "vishu@gmail.com"
 app_license = "mit"
+app_logo_url = '/assets/whrt_whitelabel/images/pravartak.jpeg'
+app_icon = '/assets/whrt_whitelabel/images/pravartak.jpeg'
 
 # Apps
 # ------------------
@@ -25,11 +27,11 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/inventory_theme/css/inventory_theme.css"
-# app_include_js = "/assets/inventory_theme/js/inventory_theme.js"
+app_include_css = "/assets/inventory_theme/css/inventory_theme.css"
+app_include_js = "/assets/inventory_theme/js/custom_sidebar_toggle.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/inventory_theme/css/inventory_theme.css"
+web_include_css = "/assets/inventory_theme/scss/website_theme.bundle.scss"
 # web_include_js = "/assets/inventory_theme/js/inventory_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../../../tmp/tmp-1423743-FH8vZeVqD9qm/inventory_theme/inventory_theme/public/scss/website_theme.bundle.css"],
+  "sourcesContent": ["@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n:root {\n  --primary: #0D9488;\n  --secondary: #334155;\n  --accent: #FBBF24;\n  --font-family: \"Inter\", sans-serif;\n  --light-bg: #F8FAFC;\n  --dark-text: #0F172A;\n}\n\nbody {\n  font-family: var(--font-family);\n  background-color: var(--light-bg);\n  color: var(--dark-text);\n}\n\n.navbar-light .navbar-brand {\n  color: rgba(21, 157, 25, 0.9019607843) !important;\n}\n\n.navbar {\n  background-color: var(--primary) !important;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);\n}\n\n.navbar-brand {\n  font-weight: bold;\n  color: white !important;\n}\n\n.nav-link {\n  color: white !important;\n  font-weight: 500;\n}\n\n.footer {\n  background-color: var(--secondary);\n  color: white;\n}\n\n.btn-primary {\n  background-color: var(--primary);\n  border: none;\n}\n\n.btn-primary:hover {\n  background-color: #0f766e;\n}"],
+  "mappings": "sFACA,MACE,mBACA,qBACA,kBACA,mCACA,oBACA,qBAGF,KACE,+BACA,iCACA,uBAGF,4BACE,0BAGF,QACE,0CACA,gCAGF,cACE,gBACA,qBAGF,UACE,qBACA,gBAGF,QACE,kCACA,WAGF,aACE,gCACA,YAGF,mBACE",
+  "names": []
+}

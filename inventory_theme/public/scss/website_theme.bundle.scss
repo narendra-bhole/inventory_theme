@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+// Custom root variables
+:root {
+  --primary: #0D9488;
+  --secondary: #334155;
+  --accent: #FBBF24;
+  --font-family: 'Inter', sans-serif;
+  --light-bg: #F8FAFC;
+  --dark-text: #0F172A;
+}
+
+// Global Body Styles
+body {
+  font-family: var(--font-family);
+  background-color: var(--light-bg);
+  color: var(--dark-text);
+}
+.navbar-light .navbar-brand {
+    color: #159d19e6 !important;
+}
+
+
+// Navbar Styling
+.navbar {
+  background-color: var(--primary) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+// Footer Styling
+.footer {
+  background-color: var(--secondary);
+  color: white;
+}
+
+// Buttons
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0f766e;
+}
